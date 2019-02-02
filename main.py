@@ -9,7 +9,7 @@
 #Towards: Pirple.com's Python Is Easy
 #Project: Homework #2 (Functions)
 
-#Task: Assign and Print Variables
+#Task: Define and Use Functions, including Boolean
 
 
 # In[ ]:
