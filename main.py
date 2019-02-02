@@ -4,14 +4,12 @@
 # In[ ]:
 
 
-"""
-Author: Sorabh Sodhani
-Date: 1st February, 2019
-Towards: Pirple.com's Python Is Easy
-Project: Homework #1 (Variables)
+#Author: Sorabh Sodhani
+#Date: 2nd February, 2019
+#Towards: Pirple.com's Python Is Easy
+#Project: Homework #2 (Functions)
 
-Task: Assign and Print Variables
-"""
+#Task: Assign and Print Variables
 
 
 # In[ ]:
@@ -32,13 +30,44 @@ Recording_Year = 1950 #year in which the song or album was recorded
 # In[ ]:
 
 
+#Defining Functions
+def title():
+    global Title; #not necessary to define a global variable here but just a safe practice
+    return Title; #returns the 'Title'
+
+def artist():
+    global Artist; 
+    return Artist; #returns the 'Artist'
+
+def length():
+    global Length; 
+    return Length; #returns the 'Length'
+
+
+# In[ ]:
+
+
 #Printing Values of Variables 
-print ("Title:" ,Title)
-print ("Artist:", Artist)
-print ("Album:", Album)
-print ("Recorded in:", Recording_Year)
-print ("Genre:", Genre)
-print ("Length:", Length, "m")
-print ("Track Number:", Track_Number)
-print ("Bitrate:", Bitrate_Value, Bitrate_Unit)
+print ("Title:" ,title())
+print ("Artist:" ,artist())
+print ("Length:" ,length(), "m")
+
+
+# In[ ]:
+
+
+#Defining a Boolean Return Function
+def isLong(): #returns True if the song is longer than 10 minutes, False otherwise
+    if (Length > 10):
+        return True
+    else:
+        return False
+    
+    
+
+
+# In[ ]:
+
+
+print("The song is longer than 10 minutes:", isLong())
 
