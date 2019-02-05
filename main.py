@@ -7,7 +7,7 @@
 #Author: Sorabh Sodhani
 #Date: 4th February, 2019
 #Towards: Pirple.com's Python Is Easy
-#Project: Homework #3 (Lists)
+#Project: Homework #4 (Lists)
 
 #Task: Lists, Funtions used for Adding to and Removing from Lists
 
