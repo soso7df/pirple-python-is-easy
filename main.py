@@ -56,6 +56,9 @@ for n in range(1,101):
     # Check if current number is divisible by 5
     if (n % num2 == 0):
         toPrint += "Buzz"
+        
+    # So, if the current number is divisible by both 3 and 5
+    # toPrint will contain "FizzBuzz"
        
     # Check if current number is a prime
     if (isPrime(n)):
