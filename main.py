@@ -24,6 +24,8 @@
 # So I am printing both Fizz and Prime for 3
 # And Buzz and Prime for 5
 
+# Also assuming that 1 is a prime number
+
 
 # In[ ]:
 
