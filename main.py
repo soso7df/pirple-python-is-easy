@@ -15,7 +15,7 @@
 # In[ ]:
 
 
-## Setting two global variables 
+# Setting two global variables 
 # for the maximum width and maximum height that my terminal can take 
 # This was achieved by trial and error
     
